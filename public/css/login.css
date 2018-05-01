@@ -1,0 +1,111 @@
+.bg_pic{
+    opacity: 0.4;
+    width:100%;
+    height:618px;
+}
+.main{
+    position:absolute;
+    left:800px;
+    top:180px;
+    height:200px;
+    width:280px;
+    background-color:white;
+    padding-left:40px;
+    padding-top:50px;
+    box-shadow: 5px 10px 5px #CCC;
+    border-radius:5px;
+}
+/* .main img{
+    width:25px;
+    height:25px;
+    padding-top:5px;
+} */
+.main div{
+    float:left;
+}
+.main button {
+    cursor:pointer;
+}
+.user_psw{
+    width:200px;
+    height:30px;
+}
+
+.mid{
+    width:98.8%;
+    height:320px;
+    position:absolute;
+    top:150px;
+    background-color:gray;
+    opacity: 0.5;
+}
+.title{
+    position:absolute;
+    left:200px;
+    top:230px;
+    z-index:2;
+    font-size:50px;
+    color:white;
+    text-shadow:5px 5px 5px #CCC;
+    /* font-family:; */
+}
+.title span{
+    font-size:19px;
+    color:white;
+}
+.but_blue {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:5px;
+    width:60px;
+    height:30px;
+}
+.but_orange {
+    background-color: orange; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:5px;
+    width:60px;
+    height:30px;
+}
+.but_green {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:5px;
+    width:60px;
+    height:30px;
+}
+.but_red {
+    background-color: rgb(233, 49, 17); 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:5px;
+    width:60px;
+    height:30px;
+}
+.but_green:hover{
+    cursor: pointer;
+}
+.but_orange:hover{
+    cursor: pointer;
+}
+.but_blue:hover{
+    cursor: pointer;
+}
+.but_red:hover{
+    cursor: pointer;
+}
