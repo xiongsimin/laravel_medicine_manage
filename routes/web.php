@@ -17,3 +17,6 @@ Route::get('/', function () {
 
 Route::get('goLogin','Login\LoginController@goLoginPage');
 Route::post('login','Login\LoginController@login');
+Route::get('chainStore','ChainStore\ChainStoreController@goChainStore');
+Route::get('medicine','Medicine\MedicineController@goMedicine');
+Route::get('welcome','WelcomeController@goWelcome');

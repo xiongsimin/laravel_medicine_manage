@@ -8,10 +8,13 @@ use App\Http\Controllers\Controller;
 
 class LoginController extends Controller
 {
+
+    //去登录页
     public function goLoginPage()
     {
         return view('login\login');
     }
+    //处理登陆，正确则进入主页，否则提示错误
     public function login(Request $request)
     {
         //dd($request->all());
@@ -25,7 +28,8 @@ class LoginController extends Controller
         //dd($user->password);
         if($user->password==$input['psw'])
         {
-            return view('manage/manage_index');
+            // dd($user->name);
+            return view('system/index',['user_name'=>$user->name]);
         }
         else
         {
